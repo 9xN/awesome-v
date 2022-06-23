@@ -41,6 +41,7 @@
 	- [User Interface toolkits](#user-interface-toolkits)
 	- [Scientific computing](#scientific-computing)
 	- [Utility](#utility)
+	- [Telecommunications](#telecommunications)
 - [Other](#other)
 	- [Syntax highlighting](#syntax-highlighting)
 	- [Editor plugins](#editor-plugins)
@@ -64,7 +65,6 @@
 - [monkey_v](https://github.com/Delta456/monkey_v) - Implementation of [Thorsten Ball's Monkey Language](https://interpreterbook.com/) in V.
 - [vcc](https://github.com/lemoncmd/vcc) - A C compiler written in V.
 - [Vork](https://github.com/Itay2805/Vork) - Alternative V compiler/interpreter written in Python.
-- [Foxil](https://github.com/StunxFS/foxil) - An intermediate language designed to facilitate compiler code generation.
 
 
 ### Operating systems/Kernels
@@ -78,13 +78,17 @@
 ### Editors
 
 - [ved](https://github.com/vlang/ved) - 1 MB text editor written in V with hardware accelerated text rendering. Compiles in <1s.
+- [vee](https://github.com/Larpon/vee) - V Editor Engine. A V module providing the guts of a text editor. Comes with a [TUI editor example](https://github.com/Larpon/vee/blob/master/examples/tuieditor/).
+- [text_editor](https://github.com/vlang/v/blob/master/examples/term.ui/text_editor.v) - Small text editor from the official V examples.
+
 
 ### Web
 
 - [vorum](https://github.com/vlang/vorum) - Open-source blogging/forum software written in V.
 - [vblog](https://github.com/scurty-labs/vblog) - A simple, fast and responsive blogging system.
 - [Heroku Buildpack for V](https://github.com/louis77/heroku-buildpack-v) - Deploy V apps on Heroku.
-- [Vlang Benchmarks Visualization](https://github.com/ArtemkaKun/VlangBenchmarksVisualization) - Fancy statistics and plots for *[Is V still fast?](https://fast.vlang.io/)*. 
+- [Vlang Benchmarks Visualization](https://github.com/ArtemkaKun/VlangBenchmarksVisualization) - Fancy statistics and plots for *[Is V still fast?](https://fast.vlang.io/)*.
+- [Vieter](https://github.com/ChewingBever/vieter) - Archlinux repository server & package build system, written in V.
 
 ### Graphics
 
@@ -108,6 +112,7 @@
 - [vinit](https://github.com/pranavbaburaj/vinit) - A tool to generate v projects.
 - [vspect](https://github.com/zakuro9715/vspect) - A tool to inspect vlang source file. ( Archived )
 - [vLogQL](https://github.com/lmangani/vLogQL) - A tiny command-line utility to query LogQL APIs.
+- [klonol](https://github.com/hungrybluedev/klonol) - CLI tool to help you "clone all" git repositories belonging to you. Works with GitHub and Gitea.
 
 ### Project management
 
@@ -167,6 +172,7 @@
 - [pico.v](https://github.com/S-YOU/pico.v) - A web server in V based on picoev and picohttpparser.
 - [vxbloauth](https://github.com/WolvesFortress/vxbl-oauth) - A minimalistic Xbox Live authenticator for vweb.
 - [vcurrency](https://github.com/mehtaarn000/vcurrency) - API wrapper (written in V) for [https://api.exchangeratesapi.io](https://api.exchangeratesapi.io).
+- [vigest](https://github.com/withs/vigest) - Simple client for digest authentication (written in V).
 
 ### Database clients
 
@@ -241,6 +247,11 @@
 - [random](https://github.com/Delta456/random) - An all purpose random library written in V.
 - [vdotenv](https://github.com/zztkm/vdotenv) - Support for .env files which loads environment variables.
 - [vaker](https://github.com/ChAoSUnItY/vaker) - A light-weight compile-time-generated data faker written in V.
+- [vexc](https://github.com/div72/vexc) - Exceptions for V using setjmp/longjmp.
+
+### Telecommunications
+
+- [vagi](https://github.com/Ouri028/vagi) - Asterisk FastAGI library in V.
 
 ## Other
 
@@ -290,7 +301,6 @@
 ### Articles
 
 - [An introduction to V](https://simonknott.de/articles/VLang.html)
-- [The Book of V](https://github.com/KeyWeeUsr/the-book-of-v/)
 - [Todo App with V](https://practicaldime.org/docs/v-fresh-take/v-todo-implementation)
 
 ### Books
